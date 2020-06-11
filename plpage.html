@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css family=Tangerine">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>product landing page</title>
+        <style>
+            @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+                }
+            }
+            .flex-container {
+                display: flex;
+            }
+            #nav-bar {
+                position: fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <header id="header">
+                <nav id="nav-bar">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                    <a href="#resources" class="nav-link">Resources</a>
+                </nav>
+                <img id="header-img" width="150px" src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2019/05/39ef2447-af04-44ac-b022-82fbffbe68a2.gif?auto=format&q=60&fit=max&w=930">
+            </header>
+            <h1>Alphabet</h1>
+        </center>
+        <center>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Fi0gSU_9j8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <label>Email:</label>
+                <input id="email" name="email" type="email" placeholder="Enter your email address">
+                <input id="submit" type="submit" value="Get Started" class="btn">
+            </form>
+        </center>
+        <section id="features">Features</section>
+        <section id="pricing">Pricing</section>
+        <section id="resources">Resources</section>
+
+        <div id="shopat">
+            <p><span style='color: red;'>NEW</span><span style="color: yellow;">ALBUM</span><span style="color: yellowgreen;">KIDS</span><span style="color: green;">HITS VOL</span><span style="color: lawngreen;">.3</span><span style="color: orange;">REL</span><span style="color: skyblue;">EAS</span><span style="color: blue;">ED!</span></p>
+            <ul>
+                <span>Amazon Music</span>
+                <span>Spotify</span>
+                <span>Apple music</span>
+                <span>google play</span>
+                <span>IHEARTRADIO</span>
+            </ul>
+        </div>
+
+        <div class="flex-container">
+
+            <div class="first-image">
+                <a href="#"><img src="kidvol.png" alt=""></a>
+            </div>        
+
+            <div class="second-image">
+                <a href="#"><img src="kidsvol1.jpeg" alt=""></a>
+            </div>
+
+            <div class="third-image">
+                <a href="#"><img src="kidsvol2.png" alt=""></a>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
